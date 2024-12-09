@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="180px" height="180px" viewBox="0 0 180 180" style="enable-background:new 0 0 180 180;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFD0CB;}
+	.st1{fill:#F2ABA3;}
+	.st2{fill:#FFFFFF;}
+	.st3{opacity:0.702;fill:#FED0CB;enable-background:new    ;}
+	.st4{opacity:0.92;fill:url(#Rectangle_1111-2_1_);enable-background:new    ;}
+	.st5{opacity:0.482;fill:#F1AAA2;enable-background:new    ;}
+</style>
+<g id="Fast_Easy" transform="translate(-799.86 -3692.253)">
+	<g id="Group_32" transform="translate(965.055 3777.831)">
+		<path id="Path_230" class="st0" d="M-16.9-32.3H-51c-3.6,0-6.6,2.9-6.6,6.6v73.3c0,3.6,2.9,6.6,6.6,6.6h7.9
+			c0-9.7,7.9-17.6,17.6-17.6S-8,44.5-8,54.2H8.3c3.6,0,6.6-2.9,6.6-6.6l0,0v-41c0-1.5-0.5-2.9-1.4-4l-25.2-32.3
+			C-13-31.3-14.9-32.3-16.9-32.3z M-2.5,11h-33.4v-29.3h13.8c3,0,5.8,1.5,7.4,4l14,22.1c0.6,1,0.3,2.2-0.6,2.8
+			C-1.8,10.9-2.1,11-2.5,11L-2.5,11z"/>
+	</g>
+	<g id="Group_33" transform="translate(963.353 3776.131)">
+		<path id="Path_230-2" class="st1" d="M-16.9-32.2H-51c-3.6,0-6.6,2.9-6.6,6.6v73.3c0,3.6,2.9,6.6,6.6,6.6h7.9
+			c0-9.7,7.9-17.6,17.6-17.6s17.6,7.9,17.6,17.6H8.3c3.6,0,6.6-2.9,6.6-6.6l0,0v-41c0-1.5-0.5-2.9-1.4-4l-25.2-32.3
+			C-13-31.3-14.9-32.2-16.9-32.2z M-2.5,11h-33.4v-29.3h13.8c3,0,5.8,1.5,7.4,4l14,22.1c0.6,1,0.3,2.2-0.6,2.8
+			C-1.7,10.9-2.1,11-2.5,11L-2.5,11z"/>
+		<ellipse id="Ellipse_562" class="st2" cx="-25" cy="55.4" rx="14.2" ry="14.2"/>
+	</g>
+	<ellipse id="Ellipse_563" class="st3" cx="846.6" cy="3834.6" rx="14.2" ry="14.2"/>
+	<ellipse id="Ellipse_570" class="st1" cx="845.3" cy="3833.2" rx="14.2" ry="14.2"/>
+	<g transform="matrix(1, 0, 0, 1, 799.86, 3692.25)">
+		
+			<linearGradient id="Rectangle_1111-2_1_" gradientUnits="userSpaceOnUse" x1="-205.9037" y1="508.3454" x2="-205.0763" y2="507.4184" gradientTransform="matrix(101 0 0 -122 20805 62046.3438)">
+			<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.502"/>
+			<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.2"/>
+		</linearGradient>
+		<path id="Rectangle_1111-2" class="st4" d="M9.8,23.6h79.1c5.4,0,9.8,4.4,9.8,9.8V133c0,5.4-4.4,9.8-9.8,9.8H9.8
+			c-5.4,0-9.8-4.4-9.8-9.8V33.3C0,27.9,4.4,23.6,9.8,23.6z"/>
+	</g>
+	<g transform="matrix(1, 0, 0, 1, 799.86, 3692.25)">
+		<path id="Subtraction_16-2" class="st5" d="M93.5,141.1L93.5,141.1c1-1.6,1.5-3.4,1.5-5.2V36.2c0-5.4-4.4-9.8-9.8-9.8H7.2
+			c-1.9,0-3.7,0.5-5.3,1.6c1.8-2.8,4.9-4.5,8.3-4.5h78.1c5.4,0,9.8,4.4,9.8,9.8v99.7C98,136.2,96.3,139.3,93.5,141.1z"/>
+	</g>
+</g>
+</svg>

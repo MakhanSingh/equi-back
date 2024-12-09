@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2067.672" height="1327.005" viewBox="0 0 2067.672 1327.005">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="Path_248" x="0" y="0" width="2067.672" height="1327.005" filterUnits="userSpaceOnUse">
+      <feOffset dx="20" dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="-3.639" y1="0.977" x2="-0.338" y2="6.136" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ededed"/>
+    </linearGradient>
+  </defs>
+  <g id="my-bg" transform="translate(53.5 -6777.047)">
+    <rect id="Rectangle_1148" data-name="Rectangle 1148" width="1920" height="533" transform="translate(0 7219)" fill="#2d3336"/>
+    <g transform="matrix(1, 0, 0, 1, -53.5, 6777.05)" filter="url(#Path_248)">
+      <path id="Path_248-2" data-name="Path 248" d="M5168,10464.172v555.188l1916.672-635.953V9843.734Z" transform="translate(-5112.5 -9788.05)" stroke="rgba(255,255,255,0.4)" stroke-width="1" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_43" data-name="Group 43" transform="translate(1195.046 4013.114)">
+      <path id="Path_246" data-name="Path 246" d="M-1218.617,3120.535s266.095-38.627,637.339,403.432c0,0,21.284,59.418,29.076,125.234,6.812,57.539-35.759,109.181-93.479,114.242l-412.812,36.19Z" transform="translate(0 0)" fill="#f35d4b" opacity="0.796"/>
+      <path id="Path_247" data-name="Path 247" d="M-1218.617,3833.772-585.255,3676.4a87.248,87.248,0,0,0,66.209-84.672V3384.22a87.249,87.249,0,0,0-65.478-84.488l-634.093-163.386Z" transform="translate(0 5.647)" fill="url(#linear-gradient-2)" style="isolation: isolate"/>
+    </g>
+  </g>
+</svg>

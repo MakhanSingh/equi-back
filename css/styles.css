@@ -1,0 +1,471 @@
+/*---------- Global CSS ----------*/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background:#E2E3DC;
+    font-family: 'Exo', sans-serif;
+    color: #fff;
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
+p {
+    line-height: 1.3em;
+    color:#000;
+}
+h2 {
+    font-size:54px;
+    font-weight: 700;
+    color:#F35D4B;
+}
+h3 {
+    font-size:40px;
+    color:#F35D4B;
+}
+h4 {
+    font-size:30px;
+    font-weight: 700;
+    color: #000;
+}
+h5 {
+    font-size:20px;
+    font-weight: 400;
+}
+h6 {
+    font-size: 18px;
+}
+p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.ms-spacer-60, 
+.ms-spacer-80, 
+.ms-spacer-160, 
+.ms-spacer-500 {
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+.ms-spacer-60 {
+    height: 60px;
+}
+.ms-spacer-80 {
+    height: 80px;
+}
+.ms-spacer-160 {
+    height: 160px;
+}
+.ms-spacer-500 {
+    height: 500px;
+}
+.ms-site-color {
+    color:#F35D4B;
+}
+.ms-sec-pad {
+    padding: 50px 0;
+}
+
+.ms-primary-btn {
+    background: #000;
+    color:#fff;
+    padding:15px;
+    padding:13px 28px;
+    font-size:30px;
+    transition: 0.3s all linear;
+    border:none;
+    font-weight: 700;
+    cursor: pointer;
+}
+.ms-primary-btn:hover {
+    background: #F2ABA3;
+    color: #030507;
+    text-decoration: none;
+}
+.ms-secondary-btn {
+    background: #F2ABA3;
+    color: #030507;
+    font-size: 40px;
+    font-weight: 700;
+    border:none;
+    cursor: pointer;
+}
+.ms-secondary-btn:hover {
+    background: #030507;
+    color: #fff;
+    text-decoration: none;
+}
+.ms-newsletter-btn {
+    padding: 10px 20px;
+}
+input {
+    padding:20px 0 13px !important;
+    border: none !important;
+    border-bottom: 1px solid #000 !important;
+    border-radius: 0 !important;
+    font-weight: bold;
+    color: #282E30 !important;
+}
+input::placeholder {
+    font-size:28px;
+    font-weight: bold;
+    color: #282E30;
+}
+input:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+
+/*----- Header CSS -----*/
+header {
+    z-index: 999;
+    height: 100%;
+    right: 0;
+    background: #000;
+}
+header nav button {
+    padding: 43px !important;
+    background: #F35D4B !important;
+    border-radius: 0px !important;
+}
+header nav .ms-user-icon {
+    margin-top:130px !important;
+}
+.navbar {
+	padding: 0;
+}
+.ms-navbar-brand {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+}
+header nav li {
+    margin:25px;
+}
+.navbar-brand img {
+	height: 52px;
+	width: auto;
+	display: block;
+	-webkit-transition : all 0.3s ease-out;
+	transition : all 0.3s ease-out;
+}
+.navbar-toggler {
+	float: right;
+	border: none;
+	padding-right: 0;
+}
+.navbar-toggler:active,
+.navbar-toggler:focus {
+	outline: none;
+}
+.navbar-light .navbar-toggler-icon {
+	width: 24px;
+	height: 17px;
+	background-image: none;
+	position: relative;
+    transition: all 300ms linear;
+}
+.navbar-light .navbar-toggler-icon:after, 
+.navbar-light .navbar-toggler-icon:before{
+	width: 24px;
+	position: absolute;
+	height: 2px;
+	background-color: #fff;
+	top: 0;
+	left: 0;
+	content: '';
+	z-index: 2;
+    transition: all 300ms linear;
+}
+.navbar-light .navbar-toggler-icon:after{
+	top: 8px;
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+	transform: rotate(45deg);
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+	transform: translateY(8px) rotate(-45deg);
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+	border-color: transparent;
+}
+header .nav-link {
+    color:#000000 !important;
+}
+.ms-navbar-nav {
+    display: -webkit-inline-box;
+    -webkit-box-orient: horizontal;
+}
+.ms-navbar-collapse {
+    position: absolute;
+    right: 120px;
+}
+.ms-navbar-collapse.collapsing ~ .ms-header-icons,
+.ms-navbar-collapse.collapse.show ~ .ms-header-icons {
+    opacity: 0;
+}
+.ms-navbar-collapse.collapse ~ .ms-header-icons {
+    opacity:1;
+    transition: .1s all ease-in-out;
+}
+@media (max-width:550px) {
+    .ms-navbar-nav {
+        -webkit-box-orient: vertical;
+        width: 100%;
+        padding: 10px 0;
+    }
+    header .ms-navbar-collapse {
+        width: 100%;
+        right: 0;
+        top: 105px;
+        background: #fff;
+    }
+    header .ms-navbar-collapse ul li a {
+        color:#000 !important;
+    }
+}
+@media (min-width:550px) {
+    .ms-navbar-collapse {
+        top: 10px;
+    }
+}
+
+/*----- Footer CSS -----*/
+footer {
+    background: #2D3336;
+    padding: 30px 0;
+}
+
+/*---------- Homepage CSS ----------*/
+
+/*----- Banner Section CSS -----*/
+.ms-bnr-sec {
+    height: 100vh;
+    padding-top: 60px;
+    background: url('../images/banner-shape.svg') no-repeat;
+    background-size: 48%;
+}
+.ms-hero-img {
+    width:40%;
+}
+.ms-bnr-sec .ms-primary-btn {
+    position: absolute;
+    right: 10%;
+    bottom:5%;
+}
+.ms-bnr-sec .ms-sep-img {
+    position: absolute;
+    top: 20%;
+    left:5%;
+}
+.ms-bar-img {
+    position: absolute;
+    bottom: 14%;
+    right: 3%;
+    z-index: 999;
+}
+
+/*----- Posture Corrector Section CSS -----*/
+#ms-posture {
+    padding: 100px 0;
+}
+#ms-posture .container-fluid {
+    padding-left: 10%;
+    padding-right:10%;
+}
+
+/*----- Key Highlights Section CSS -----*/
+#ms-key-sec {
+    padding:150px 0 300px;
+    background: url('../images/round-shape.svg');
+    background-repeat: no-repeat;
+    background-position: 104% 0;
+}
+#ms-key-sec .ms-key-title {
+    font-size:22.5px;
+    font-weight: bold;
+    color: #050303;
+}
+#ms-key-sec .ms-side-box {
+    background-color: rgb(255 255 255 / 50%) !important;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(160%) blur(15px);
+    padding: 50px 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+/*----- Buy Now & Save Section -----*/
+#ms-buy-sec {
+    padding: 100px 0;
+    background: #2D3336;
+}
+#ms-buy-sec h4 {
+    color:#F2ABA3;
+}
+
+/*----- 50% off Section -----*/
+#ms-off-sec {
+    padding:160px 0;
+}
+
+/*----- Our Customer Section -----*/
+.ms-feedback-sec {
+    background: url('../images/scetion-bg.svg');
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-color: #fff;
+    padding-bottom: 250px;
+    background-position: 0 488px;
+}
+/* .ms-review {
+    background: url('../images/new-bg-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0 100px;
+} */
+.ms-feedback-sec .ms-above-sec {
+    background: #2D3336;
+    padding: 50px 0;
+}
+.ms-padding {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.ms-black-box {
+    background: #2D3336;
+    width: 400px;
+    height: 360px;
+    padding: 30px;
+}
+.ms-and {
+    font-size: 260px;
+    font-weight: 700;
+    line-height: 0.8em;
+}
+.ms-black-box-two {
+    display: flex;
+    align-items: center;
+}
+.ms-grey-box {
+    background: #EDEDED;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    padding: 50px 250px 60px 30px;
+    background-repeat: no-repeat;
+    background-position: 0 90%, 30% 0;
+}
+.grey-one {
+    background-image: url('../images/new-sep.png'), url('../images/one-bg.png');
+}
+.grey-two {
+    background-image: url('../images/new-sep.png'), url('../images/two-bg.png');
+}
+.grey-three {
+    background-image: url('../images/new-sep.png'), url('../images/three-bg.png');
+}
+.ms-grey-box .ms-title {
+    font-size:25px;
+    font-weight: 800;
+    color:#2D3336;
+    font-weight: 400;
+}
+/* .ms-top-bg-img {
+    background: url('../images/half-round.svg') right;
+    background-repeat: no-repeat;
+} */
+.man-img {
+    width: 550px;
+    position: relative;
+    left: 372px;
+}
+/* .ms-review {
+    background: #2D3336;
+    padding: 100px 0;
+} */
+.ms-reviews-bg {
+    /* background: url('../images/review-side-bg.svg'); */
+    /* background: #fff; */
+    padding: 50px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+.swiper-container {
+    margin-left:100px;
+}
+
+/* .ms-feedback-sec {
+    padding-bottom:100px;
+} */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {    
+    width: 38%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide:nth-child(2n) {
+    width: 38%;
+}
+.swiper-slide:nth-child(3n) {
+    width: 38%;
+}
+/* .swiper-slide {
+    -webkit-transform: scale3d(0.9, 0.9, 1);
+    transform: scale3d(0.9, 0.9, 1);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.swiper-slide.swiper-slide-prev {
+    -webkit-transform: scale3d(1.0, 1.0, 1);
+    transform: scale3d(1.0, 1.0, 1);
+} */
+.ms-review-box {
+    background:#fff;
+    padding: 30px;
+    background-image: url('../images/quotes-bg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 370px;
+}
+.ms-review-box h6 {
+    color: #000;
+    font-weight: 600;
+}
+.ms-review-box p {
+    color:rgba(0, 0, 0, 0.5);
+    line-height: 1.5em;
+}
+
+/*----- Newletter Section CSS -----*/
+#ms-newsletter-sec {
+    padding:100px 0;
+    background: #fff;
+}
+#ms-newsletter-sec .ms-newsletter-sep-img {
+    position: absolute;
+    right: 10%;
+    bottom:25%;
+}
+
+.ms-inner-content h6 {
+    line-height: 1.7;
+    font-weight: 400;
+}

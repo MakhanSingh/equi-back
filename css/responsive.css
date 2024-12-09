@@ -1,0 +1,262 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1180px;
+    }
+}
+@media (min-width: 1300px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1350px;
+    }
+}
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1450px;
+    }
+}
+
+@media (max-width:1500px) {
+    .ms-bnr-sec {
+        background-size: 60%;
+    }
+    .man-img {
+        width: 680px;
+    }
+    .ms-one-row,  
+    .ms-three-row {
+        margin-left: 10%;
+        flex: 0 0 44%;
+        max-width: 44%;
+    }
+    .ms-two-row {
+        flex: 0 0 44%;
+        max-width: 44%;
+    }
+
+    .ms-feedback-sec {
+        padding-bottom: 200px;
+        background-position: -180px 550px;
+    }
+
+    .ms-inner-content {
+        padding-right: 120px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:1400px) {
+    .ms-feedback-sec {
+        background-position: -180px 490px;
+    }
+    .ms-spacer-500 {
+        height: 390px;
+    }
+}
+
+@media (max-width:1300px) {
+    .ms-feedback-sec {
+        background-position: -180px 630px;
+    }
+    .ms-inner-content {
+        padding-right: 150px;
+        padding-left: 50px;
+    }
+}
+
+@media (max-width:1100px) {
+    .ms-bnr-sec {
+        background-size:auto;
+    }
+    .ms-bnr-sec .ms-primary-btn {
+        right: 20%;
+    }
+    .ms-hero-img {
+        width: 60%;
+    }
+    .ms-reviews-bg {
+        margin-right: 300px;
+        margin-bottom: 60px;
+    }
+    .swiper-container {
+        margin-left: 10px;
+    }
+    .ms-review-box {
+        min-height: 400px;
+    }
+    .ms-newsletter-sep-img {
+        right: 5%;
+    }
+    .ms-one-row, 
+    .ms-three-row,
+    .ms-two-row {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .ms-two-row {
+        position: relative;
+        right: 100px;
+    }
+    .man-img {
+        left: 170px;
+    }
+    .ms-spacer-500 {
+        height: 150px;
+    }
+    .ms-feedback-sec {
+        background: none;
+        padding-bottom: 0;
+    }
+    .ms-top-bg-img {
+        background: url('../images/half-round.svg') right;
+        background-repeat: no-repeat;
+    }
+    .ms-review {
+        background: #2D3336;
+        padding: 100px 0;
+    }
+    .ms-reviews-bg {
+        background: #fff;
+    }
+    /* .ms-review {
+        background: url('../images/new-bg-2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 200px 0 100px;
+    } */
+}
+
+@media (max-width:800px) {
+    h2 {
+        font-size: 50px;
+    }
+    .ms-one-row,
+    .ms-three-row,
+    .ms-two-row {
+        flex: 0 0 80%;
+        max-width: 80%;
+        margin: 15px 0;
+        margin-left: 60px;
+    }
+    .ms-two-row {
+        right: 0;
+    }
+    .ms-side-box {
+        margin-top:60px;
+        margin-left: 0 !important;
+    }
+    .ms-black-box {
+        width: 350px;
+        height: 350px;
+    }
+    .ms-review-box {
+        min-height: 500px;
+    }
+    .ms-reviews-bg {
+        padding-bottom: 20px;
+    }
+    #ms-newsletter-sec .ms-newsletter-sep-img {
+        right: 4%;
+        bottom: 44%;
+    }
+    .man-img {
+        width: 500px;
+        left: 110px;
+    }
+    .ms-inner-content {
+        padding-right: 130px;
+        padding-left: 25px;
+    }
+}
+
+@media (max-width:550px) {
+    .ms-bar-img {
+        bottom: 18%;
+        right: 3%;
+        width: 22%;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    header {
+        width: 100%;
+        background: transparent;
+        height: 150px;
+    }
+    header nav {
+        float: right;
+    }
+    .ms-bnr-sec .ms-sep-img {
+        display: none;
+    }
+    .ms-hero-img {
+        width:90%;
+    }
+    .ms-bnr-sec .ms-primary-btn {
+        right: 24%;
+    }
+    #ms-key-sec {
+        padding-top: 0;
+    }
+    .ms-secondary-btn {
+        font-size: 24px;
+    }
+    .man-img {
+        left: 0;
+    }
+    #ms-buy-sec .ms-spacer-80 {
+        height: 30px;
+    }
+    #ms-off-sec {
+        padding: 100px 0;
+    }
+    .ms-black-box {
+        width: 100%;
+    }
+    .ms-one-row, .ms-three-row, .ms-two-row {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .ms-grey-box {
+        padding: 50px 130px 60px 15px;
+    }
+    .ms-spacer-160 {
+        height: 50px;
+    }
+    .ms-spacer-500 {
+        height: 80px;
+    }
+    .ms-reviews-bg {
+        margin-right: 30px;
+    }
+    .swiper-container {
+        margin-left: 15px;
+    }
+    .swiper-slide {
+        width:90%
+    }
+    .swiper-slide:nth-child(2n) {
+        width: 90%;
+    }
+    .ms-reviews-bg {
+        margin-bottom: 10px;
+    }
+    .ms-review {
+        padding-bottom: 50px;
+    }
+    #ms-newsletter-sec {
+        padding: 50px 0;
+    }
+    #ms-newsletter-sec .ms-newsletter-sep-img {
+        display: none;
+    }
+    .ms-inner-content {
+        height: auto;
+        padding: 170px 10px 50px;
+        background: none;
+    }
+}
